@@ -1,5 +1,11 @@
 """En este archivo se realizan las clases"""
 
+class Empresa:
+    def __init__(self):
+        pass
+
+    def trabajar(self):
+        Print("El empleado esta realizando")
 class Nombre:
     def __init(self, nombre):
         self.nombre = nombre
