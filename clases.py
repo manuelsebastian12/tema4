@@ -27,7 +27,7 @@ class Gerente(Persona, Empresa):
         print("El gerente se llama ", b, ", en este momento está entrevistando a un candidato para una vacante")
 
     def trabajar(self):
-        print("Más tarde el gerente realizará una supercisión a las diferentes áreas")
+        print("Más tarde el gerente realizará una supervisión a las diferentes áreas")
 
     def vestir(self):
         print("El gerente viste un traje de color azul y una corbata roja")
