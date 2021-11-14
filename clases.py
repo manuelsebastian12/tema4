@@ -26,11 +26,17 @@ class Gerente(Persona, Empresa):
         b = self.nombre
         print("El gerente se llama ", b, ", en este momento está entrevistando a un candidato para una vacante")
 
+    def contratar(self):
+        print("El entrevistado ha pasado los exámenes por lo que se procederá a su contratación")
+
     def trabajar(self):
         print("Más tarde el gerente realizará una supervisión a las diferentes áreas")
 
     def vestir(self):
         print("El gerente viste un traje de color azul y una corbata roja")
+
+    def transportar(self):
+        print("El gerente conduce un bonito Audi A3")
 
 class Empleado(Persona, Empresa):
     def __init__(self, nombre):
