@@ -36,7 +36,7 @@ class Gerente(Persona, Empresa):
         print("El gerente viste un traje de color azul y una corbata roja")
 
     def transportar(self):
-        print("El gerente conduce un bonito Audi A3")
+        print("El gerente conduce un bonito Audi modelo A3")
 
 class Empleado(Persona, Empresa):
     def __init__(self, nombre):
